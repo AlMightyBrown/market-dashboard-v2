@@ -1,77 +1,77 @@
 {
-  "updated_at": "2026-03-25T23:00:58.018426+00:00",
+  "updated_at": "2026-03-25T23:37:01.027931+00:00",
   "sections": {
     "us_futures": {
       "label": "US Index Futures",
       "rows": [
         {
-          "price": 6633.75,
+          "price": 6626.75,
           "prev_close": 6606.0,
-          "change_1d_pct": 0.42,
-          "change_1w_pct": 0.12,
-          "change_ytd_pct": -3.87,
-          "pct_from_52w_high": -5.45,
+          "change_1d_pct": 0.31,
+          "change_1w_pct": 0.01,
+          "change_ytd_pct": -3.97,
+          "pct_from_52w_high": -5.55,
           "high_52w": 7016.5,
           "sparkline": [
             6609.25,
             6594.63,
             6634.75,
             6606.0,
-            6633.75
+            6626.75
           ],
           "ticker": "ES=F",
           "name": "S&P 500 Futures"
         },
         {
-          "price": 24337.0,
+          "price": 24310.0,
           "prev_close": 24213.75,
-          "change_1d_pct": 0.51,
-          "change_1w_pct": -0.4,
-          "change_ytd_pct": -4.13,
-          "pct_from_52w_high": -7.33,
+          "change_1d_pct": 0.4,
+          "change_1w_pct": -0.51,
+          "change_ytd_pct": -4.24,
+          "pct_from_52w_high": -7.43,
           "high_52w": 26262.5,
           "sparkline": [
             24364.0,
             24291.78,
             24408.25,
             24213.75,
-            24337.0
+            24310.0
           ],
           "ticker": "NQ=F",
           "name": "Nasdaq 100 Futures"
         },
         {
-          "price": 46663.0,
+          "price": 46612.0,
           "prev_close": 46415.0,
-          "change_1d_pct": 0.53,
-          "change_1w_pct": 0.93,
-          "change_ytd_pct": -4.02,
-          "pct_from_52w_high": -7.18,
+          "change_1d_pct": 0.42,
+          "change_1w_pct": 0.82,
+          "change_ytd_pct": -4.12,
+          "pct_from_52w_high": -7.28,
           "high_52w": 50273.0,
           "sparkline": [
             46041.0,
             45897.0,
             46522.0,
             46415.0,
-            46663.0
+            46612.0
           ],
           "ticker": "YM=F",
           "name": "Dow Futures"
         },
         {
-          "price": 2547.2,
+          "price": 2543.2,
           "prev_close": 2522.3,
-          "change_1d_pct": 0.99,
-          "change_1w_pct": 2.73,
-          "change_ytd_pct": 0.98,
-          "pct_from_52w_high": -6.72,
+          "change_1d_pct": 0.83,
+          "change_1w_pct": 2.57,
+          "change_ytd_pct": 0.82,
+          "pct_from_52w_high": -6.87,
           "high_52w": 2730.8,
           "sparkline": [
             2495.6,
             2496.4,
             2509.6,
             2522.3,
-            2547.2
+            2543.2
           ],
           "ticker": "RTY=F",
           "name": "Russell 2000 Futures"
@@ -105,8 +105,8 @@
           "change_1d_pct": -3.5,
           "change_1w_pct": -3.5,
           "change_ytd_pct": 42.23,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             25.54,
             27.43,
@@ -138,13 +138,13 @@
         {
           "price": 1.16,
           "prev_close": 1.16,
-          "change_1d_pct": -0.43,
-          "change_1w_pct": 0.87,
-          "change_ytd_pct": -1.58,
-          "pct_from_52w_high": -3.77,
+          "change_1d_pct": -0.38,
+          "change_1w_pct": 0.21,
+          "change_ytd_pct": -1.59,
+          "pct_from_52w_high": -3.78,
           "high_52w": 1.2,
           "sparkline": [
-            1.16,
+            1.15,
             1.16,
             1.16,
             1.16,
@@ -159,55 +159,55 @@
       "label": "Crypto",
       "rows": [
         {
-          "price": 71318.28,
+          "price": 71309.88,
           "prev_close": 70517.86,
-          "change_1d_pct": 1.14,
-          "change_1w_pct": 1.13,
+          "change_1d_pct": 1.12,
+          "change_1w_pct": 1.12,
           "change_ytd_pct": -19.63,
-          "pct_from_52w_high": -42.83,
+          "pct_from_52w_high": -42.84,
           "high_52w": 124752.53,
           "sparkline": [
             68711.52,
             67845.21,
             70914.86,
             70517.86,
-            71318.28
+            71309.88
           ],
           "ticker": "BTC-USD",
           "name": "Bitcoin"
         },
         {
-          "price": 2173.07,
+          "price": 2170.21,
           "prev_close": 2155.7,
-          "change_1d_pct": 0.81,
-          "change_1w_pct": 1.24,
-          "change_ytd_pct": -27.57,
-          "pct_from_52w_high": -55.02,
+          "change_1d_pct": 0.67,
+          "change_1w_pct": 1.1,
+          "change_ytd_pct": -27.67,
+          "pct_from_52w_high": -55.08,
           "high_52w": 4831.35,
           "sparkline": [
             2076.69,
             2053.05,
             2152.15,
             2155.7,
-            2173.07
+            2170.21
           ],
           "ticker": "ETH-USD",
           "name": "Ethereum"
         },
         {
-          "price": 91.71,
+          "price": 91.67,
           "prev_close": 90.82,
-          "change_1d_pct": 0.98,
-          "change_1w_pct": 2.07,
-          "change_ytd_pct": -27.65,
-          "pct_from_52w_high": -62.97,
+          "change_1d_pct": 0.93,
+          "change_1w_pct": 2.02,
+          "change_ytd_pct": -27.68,
+          "pct_from_52w_high": -62.98,
           "high_52w": 247.64,
           "sparkline": [
             87.47,
             86.13,
             91.42,
             90.82,
-            91.71
+            91.67
           ],
           "ticker": "SOL-USD",
           "name": "Solana"
@@ -218,55 +218,55 @@
       "label": "Precious & Base Metals",
       "rows": [
         {
-          "price": 4519.2,
+          "price": 4493.5,
           "prev_close": 4399.3,
-          "change_1d_pct": 2.73,
-          "change_1w_pct": -7.58,
-          "change_ytd_pct": 4.75,
-          "pct_from_52w_high": -15.03,
+          "change_1d_pct": 2.14,
+          "change_1w_pct": -8.11,
+          "change_ytd_pct": 4.15,
+          "pct_from_52w_high": -15.51,
           "high_52w": 5318.4,
           "sparkline": [
             4600.7,
             4570.4,
             4404.1,
             4399.3,
-            4519.2
+            4493.5
           ],
           "ticker": "GC=F",
           "name": "Gold"
         },
         {
-          "price": 71.44,
+          "price": 70.72,
           "prev_close": 69.27,
-          "change_1d_pct": 3.13,
-          "change_1w_pct": -7.5,
-          "change_ytd_pct": 1.26,
-          "pct_from_52w_high": -37.92,
+          "change_1d_pct": 2.09,
+          "change_1w_pct": -8.44,
+          "change_ytd_pct": 0.23,
+          "pct_from_52w_high": -38.55,
           "high_52w": 115.08,
           "sparkline": [
             70.9,
             69.36,
             69.05,
             69.27,
-            71.44
+            70.72
           ],
           "ticker": "SI=F",
           "name": "Silver"
         },
         {
-          "price": 5.52,
+          "price": 5.51,
           "prev_close": 5.42,
-          "change_1d_pct": 1.84,
-          "change_1w_pct": -0.57,
-          "change_ytd_pct": -2.08,
-          "pct_from_52w_high": -10.57,
+          "change_1d_pct": 1.64,
+          "change_1w_pct": -0.77,
+          "change_ytd_pct": -2.28,
+          "pct_from_52w_high": -10.75,
           "high_52w": 6.18,
           "sparkline": [
             5.43,
             5.34,
             5.44,
             5.42,
-            5.52
+            5.51
           ],
           "ticker": "HG=F",
           "name": "Copper"
@@ -277,37 +277,37 @@
       "label": "Energy Commodities",
       "rows": [
         {
-          "price": 90.95,
+          "price": 91.01,
           "prev_close": 92.35,
-          "change_1d_pct": -1.52,
-          "change_1w_pct": -5.58,
-          "change_ytd_pct": 58.67,
-          "pct_from_52w_high": -7.86,
+          "change_1d_pct": -1.45,
+          "change_1w_pct": -5.51,
+          "change_ytd_pct": 58.78,
+          "pct_from_52w_high": -7.8,
           "high_52w": 98.71,
           "sparkline": [
             96.14,
             98.32,
             88.13,
             92.35,
-            90.95
+            91.01
           ],
           "ticker": "CL=F",
           "name": "Crude Oil (WTI)"
         },
         {
-          "price": 97.92,
+          "price": 97.94,
           "prev_close": 104.49,
-          "change_1d_pct": -6.29,
-          "change_1w_pct": -8.81,
-          "change_ytd_pct": 61.19,
-          "pct_from_52w_high": -12.72,
+          "change_1d_pct": -6.27,
+          "change_1w_pct": -8.79,
+          "change_ytd_pct": 61.22,
+          "pct_from_52w_high": -12.7,
           "high_52w": 112.19,
           "sparkline": [
             108.65,
             112.19,
             99.94,
             104.49,
-            97.92
+            97.94
           ],
           "ticker": "BZ=F",
           "name": "Brent Crude"
@@ -315,10 +315,10 @@
         {
           "price": 2.93,
           "prev_close": 2.94,
-          "change_1d_pct": -0.48,
-          "change_1w_pct": -4.44,
-          "change_ytd_pct": -19.04,
-          "pct_from_52w_high": -60.74,
+          "change_1d_pct": -0.31,
+          "change_1w_pct": -4.27,
+          "change_ytd_pct": -18.91,
+          "pct_from_52w_high": -60.67,
           "high_52w": 7.46,
           "sparkline": [
             3.17,
@@ -418,8 +418,8 @@
           "change_1d_pct": 0.54,
           "change_1w_pct": -0.5,
           "change_ytd_pct": -3.89,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             6606.49,
             6506.48,
@@ -436,8 +436,8 @@
           "change_1d_pct": 0.67,
           "change_1w_pct": -1.07,
           "change_ytd_pct": -4.14,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             24355.28,
             23898.15,
@@ -454,8 +454,8 @@
           "change_1d_pct": 0.66,
           "change_1w_pct": 0.44,
           "change_ytd_pct": -4.04,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             46021.43,
             45577.47,
@@ -472,8 +472,8 @@
           "change_1d_pct": 1.23,
           "change_1w_pct": 2.33,
           "change_ytd_pct": 1.12,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             2494.71,
             2438.45,
@@ -490,8 +490,8 @@
           "change_1d_pct": 1.09,
           "change_1w_pct": -2.65,
           "change_ytd_pct": -3.81,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             25500.58,
             25277.32,
@@ -508,8 +508,8 @@
           "change_1d_pct": 2.87,
           "change_1w_pct": 0.09,
           "change_ytd_pct": 3.7,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             55239.4,
             53372.53,
@@ -567,8 +567,8 @@
           "change_1d_pct": 0.56,
           "change_1w_pct": -0.43,
           "change_ytd_pct": -3.59,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             658.0,
             648.57,
@@ -585,8 +585,8 @@
           "change_1d_pct": 0.66,
           "change_1w_pct": -1.19,
           "change_ytd_pct": -4.13,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             593.02,
             582.06,
@@ -603,8 +603,8 @@
           "change_1d_pct": 1.22,
           "change_1w_pct": 2.36,
           "change_ytd_pct": 1.4,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             247.63,
             242.22,
@@ -621,8 +621,8 @@
           "change_1d_pct": 0.64,
           "change_1w_pct": 0.46,
           "change_ytd_pct": -3.67,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             460.07,
             455.89,
@@ -639,8 +639,8 @@
           "change_1d_pct": 3.01,
           "change_1w_pct": -6.4,
           "change_ytd_pct": 4.52,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             426.41,
             413.38,
@@ -657,8 +657,8 @@
           "change_1d_pct": 0.96,
           "change_1w_pct": -0.14,
           "change_ytd_pct": 0.5,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             87.49,
             85.83,
@@ -680,8 +680,8 @@
           "change_1d_pct": 0.45,
           "change_1w_pct": -0.87,
           "change_ytd_pct": -5.23,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             138.43,
             135.29,
@@ -698,8 +698,8 @@
           "change_1d_pct": 0.12,
           "change_1w_pct": 0.76,
           "change_ytd_pct": -10.18,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             48.99,
             49.08,
@@ -716,8 +716,8 @@
           "change_1d_pct": 1.0,
           "change_1w_pct": -0.61,
           "change_ytd_pct": -5.96,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             146.61,
             145.33,
@@ -734,8 +734,8 @@
           "change_1d_pct": -0.44,
           "change_1w_pct": 3.66,
           "change_ytd_pct": 32.68,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             59.36,
             59.31,
@@ -752,8 +752,8 @@
           "change_1d_pct": 0.67,
           "change_1w_pct": -0.05,
           "change_ytd_pct": 4.51,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             164.06,
             161.67,
@@ -770,8 +770,8 @@
           "change_1d_pct": 0.28,
           "change_1w_pct": -1.95,
           "change_ytd_pct": -4.67,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             113.14,
             112.23,
@@ -788,8 +788,8 @@
           "change_1d_pct": 0.96,
           "change_1w_pct": 0.14,
           "change_ytd_pct": -6.44,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             109.7,
             107.74,
@@ -806,8 +806,8 @@
           "change_1d_pct": 0.49,
           "change_1w_pct": -1.37,
           "change_ytd_pct": 4.92,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             81.97,
             81.29,
@@ -824,8 +824,8 @@
           "change_1d_pct": 1.98,
           "change_1w_pct": 1.92,
           "change_ytd_pct": 7.13,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             47.74,
             46.98,
@@ -842,8 +842,8 @@
           "change_1d_pct": -0.05,
           "change_1w_pct": -4.16,
           "change_ytd_pct": -0.27,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             41.92,
             40.59,
@@ -860,8 +860,8 @@
           "change_1d_pct": 0.35,
           "change_1w_pct": -3.17,
           "change_ytd_pct": 4.79,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             46.54,
             44.65,
@@ -883,8 +883,8 @@
           "change_1d_pct": 1.3,
           "change_1w_pct": -2.11,
           "change_ytd_pct": -10.74,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             71.07,
             69.15,
@@ -901,8 +901,8 @@
           "change_1d_pct": 1.24,
           "change_1w_pct": 2.06,
           "change_ytd_pct": 10.13,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             340.2,
             332.51,
@@ -919,8 +919,8 @@
           "change_1d_pct": 3.66,
           "change_1w_pct": 2.32,
           "change_ytd_pct": 1.97,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             122.33,
             120.31,
@@ -937,8 +937,8 @@
           "change_1d_pct": 0.46,
           "change_1w_pct": -2.45,
           "change_ytd_pct": -10.34,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             65.23,
             64.03,
@@ -955,8 +955,8 @@
           "change_1d_pct": 1.66,
           "change_1w_pct": -1.35,
           "change_ytd_pct": -6.35,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             34.88,
             33.6,
@@ -973,8 +973,8 @@
           "change_1d_pct": 2.73,
           "change_1w_pct": 2.4,
           "change_ytd_pct": 10.0,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             18.75,
             18.06,
@@ -991,8 +991,8 @@
           "change_1d_pct": 1.81,
           "change_1w_pct": 3.7,
           "change_ytd_pct": 8.68,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             68.74,
             66.98,
@@ -1009,8 +1009,8 @@
           "change_1d_pct": 1.86,
           "change_1w_pct": 0.45,
           "change_ytd_pct": 0.51,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             70.66,
             68.15,
@@ -1027,8 +1027,8 @@
           "change_1d_pct": 0.54,
           "change_1w_pct": -2.74,
           "change_ytd_pct": -4.16,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             78.39,
             76.49,
@@ -1045,8 +1045,8 @@
           "change_1d_pct": -0.53,
           "change_1w_pct": 3.34,
           "change_ytd_pct": 29.44,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             190.31,
             192.54,
@@ -1068,8 +1068,8 @@
           "change_1d_pct": 1.77,
           "change_1w_pct": 0.71,
           "change_ytd_pct": 4.21,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             84.08,
             81.2,
@@ -1086,8 +1086,8 @@
           "change_1d_pct": 1.87,
           "change_1w_pct": -0.55,
           "change_ytd_pct": -9.59,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             36.19,
             35.16,
@@ -1104,8 +1104,8 @@
           "change_1d_pct": 2.37,
           "change_1w_pct": 3.53,
           "change_ytd_pct": 16.58,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             36.5,
             35.06,
@@ -1122,8 +1122,8 @@
           "change_1d_pct": 1.34,
           "change_1w_pct": -0.73,
           "change_ytd_pct": -7.26,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             39.69,
             38.2,
@@ -1140,8 +1140,8 @@
           "change_1d_pct": 1.67,
           "change_1w_pct": -0.53,
           "change_ytd_pct": 1.53,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             45.11,
             43.85,
@@ -1158,8 +1158,8 @@
           "change_1d_pct": -0.78,
           "change_1w_pct": -3.14,
           "change_ytd_pct": 24.97,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             134.82,
             125.78,
@@ -1176,8 +1176,8 @@
           "change_1d_pct": 0.87,
           "change_1w_pct": -0.71,
           "change_ytd_pct": 5.02,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             28.26,
             27.3,
@@ -1194,8 +1194,8 @@
           "change_1d_pct": 1.02,
           "change_1w_pct": -0.33,
           "change_ytd_pct": 0.81,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             54.1,
             53.21,
@@ -1212,8 +1212,8 @@
           "change_1d_pct": 2.22,
           "change_1w_pct": -0.63,
           "change_ytd_pct": -13.09,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             47.52,
             46.59,
@@ -1230,8 +1230,8 @@
           "change_1d_pct": 2.33,
           "change_1w_pct": 1.47,
           "change_ytd_pct": 11.76,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             72.14,
             69.74,
@@ -1253,8 +1253,8 @@
           "change_1d_pct": 1.99,
           "change_1w_pct": -0.95,
           "change_ytd_pct": -5.38,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             178.56,
             172.7,
@@ -1271,8 +1271,8 @@
           "change_1d_pct": 0.39,
           "change_1w_pct": 1.07,
           "change_ytd_pct": -6.7,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             248.96,
             247.99,
@@ -1289,8 +1289,8 @@
           "change_1d_pct": -0.46,
           "change_1w_pct": -5.3,
           "change_ytd_pct": -21.37,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             389.02,
             381.87,
@@ -1307,8 +1307,8 @@
           "change_1d_pct": 0.76,
           "change_1w_pct": -1.74,
           "change_ytd_pct": -11.9,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             380.3,
             367.96,
@@ -1325,8 +1325,8 @@
           "change_1d_pct": 0.33,
           "change_1w_pct": -3.38,
           "change_ytd_pct": -8.46,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             606.7,
             593.66,
@@ -1343,8 +1343,8 @@
           "change_1d_pct": 2.16,
           "change_1w_pct": 0.88,
           "change_ytd_pct": -6.53,
-          "pct_from_52w_high": NaN,
-          "high_52w": NaN,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             208.76,
             205.37,

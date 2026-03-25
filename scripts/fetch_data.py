@@ -161,7 +161,10 @@ BREADTH_TICKERS = ["SPY", "QQQ", "IWM", "RSP"]
 
 def safe_round(val, decimals=2):
     try:
-        return round(float(val), decimals)
+        result = round(float(val), decimals)
+        if result != result:  # NaN check
+            return None
+        return result
     except (TypeError, ValueError):
         return None
 
