@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Market Command Centre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  /* ── RESET & BASE ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0a0b0d;
+    --bg2:       #0f1114;
+    --bg3:       #141720;
+    --border:    #1e2330;
+    --border2:   #2a3040;
+    --text:      #c8cdd8;
+    --text-dim:  #5a6070;
+    --text-mute: #3a4050;
+    --accent:    #e8c84a;
+    --accent2:   #4ae8a0;
+    --red:       #e84a4a;
+    --green:     #4ae8a0;
+    --blue:      #4a90e8;
+    --mono:      'Space Mono', monospace;
+    --sans:      'Syne', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10, 11, 13, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .logo {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  .logo span {
+    color: var(--text-dim);
+    font-weight: 400;
+  }
+
+  .nav-pills {
+    display: flex;
+    gap: 4px;
+  }
+
+  .nav-pill {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s;
+    letter-spacing: 0.05em;
+  }
+
+  .nav-pill:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(232,200,74,0.05);
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  #live-clock {
+    color: var(--accent);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+  }
+
+  #updated-at {
+    font-size: 11px;
+    color: var(--text-mute);
+  }
+
+  /* ── HERO ── */
+  .hero {
+    padding: 48px 24px 32px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, rgba(232,200,74,0.03) 0%, transparent 100%);
+  }
+
+  .hero-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: var(--text-mute);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .hero-title {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 52px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .hero-title em {
+    color: var(--accent);
+    font-style: normal;
+  }
+
+  .hero-quote {
+    font-size: 12px;
+    color: var(--text-mute);
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── LAYOUT ── */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .section-num {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+  }
+
+  .section-title {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: -0.01em;
+  }
+
+  .section-sub {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--text-mute);
+    text-transform: uppercase;
+    margin-left: auto;
+  }
+
+  /* ── TABLE GROUP ── */
+  .table-group {
+    margin-bottom: 20px;
+  }
+
+  .table-group-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+    cursor: pointer;
+    user-select: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .table-group-header:hover .group-title { color: var(--accent); }
+
+  .group-toggle {
+    font-size: 10px;
+    color: var(--text-mute);
+    transition: transform 0.2s;
+  }
+
+  .table-group.open .group-toggle { transform: rotate(90deg); }
+
+  .group-title {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    transition: color 0.15s;
+  }
+
+  .group-count {
+    font-size: 10px;
+    color: var(--text-mute);
+    margin-left: auto;
+  }
+
+  /* ── TABLE ── */
+  .data-table-wrap {
+    overflow-x: auto;
+    display: none;
+  }
+
+  .table-group.open .data-table-wrap { display: block; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  thead th {
+    text-align: right;
+    padding: 6px 12px;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-mute);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  thead th:first-child,
+  thead th:nth-child(2) { text-align: left; }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(30,35,48,0.5);
+    transition: background 0.1s;
+  }
+
+  tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+  tbody td {
+    padding: 8px 12px;
+    text-align: right;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  tbody td:first-child { text-align: left; }
+  tbody td:nth-child(2) { text-align: left; }
+
+  .td-rank {
+    color: var(--text-mute);
+    font-size: 10px;
+    width: 32px;
+  }
+
+  .td-ticker {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+
+  .td-name {
+    color: var(--text);
+    font-size: 12px;
+  }
+
+  .td-price {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .neu { color: var(--text-dim); }
+
+  /* ── SPARKLINE ── */
+  .spark {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 20px;
+  }
+
+  .spark-bar {
+    width: 4px;
+    border-radius: 1px;
+    background: var(--text-mute);
+    transition: background 0.2s;
+  }
+
+  /* ── BREADTH PANEL ── */
+  .breadth-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .breadth-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+  }
+
+  .breadth-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-mute);
+    margin-bottom: 8px;
+  }
+
+  .breadth-value {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .breadth-sub {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  /* ── CALC ── */
+  .calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 16px;
+  }
+
+  @media (max-width: 768px) {
+    .calc-grid { grid-template-columns: 1fr; }
+  }
+
+  .calc-panel {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px;
+  }
+
+  .calc-panel-title {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-mute);
+    margin-bottom: 16px;
+  }
+
+  .field-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 12px;
+  }
+
+  .field-label {
+    font-size: 11px;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  input[type="number"] {
+    background: var(--bg3);
+    border: 1px solid var(--border2);
+    color: #fff;
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: right;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  input[type="number"]:focus {
+    border-color: var(--accent);
+  }
+
+  .direction-toggle {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .dir-btn {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--border2);
+    background: transparent;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.15s;
+  }
+
+  .dir-btn.active.long  { background: rgba(74,232,160,0.1); border-color: var(--green); color: var(--green); }
+  .dir-btn.active.short { background: rgba(232,74,74,0.1);  border-color: var(--red);   color: var(--red); }
+
+  .calc-results {
+    margin-top: 16px;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+
+  .result-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 12px;
+  }
+
+  .result-key { color: var(--text-dim); }
+  .result-val { font-weight: 700; color: #fff; }
+  .result-val.accent { color: var(--accent); }
+  .result-val.green  { color: var(--green); }
+  .result-val.red    { color: var(--red); }
+
+  /* ── LOADING STATE ── */
+  .loading-row td {
+    color: var(--text-mute);
+    font-style: italic;
+    text-align: center !important;
+    padding: 20px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    padding: 24px;
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-mute);
+    border-top: 1px solid var(--border);
+  }
+
+  footer a { color: var(--text-dim); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+  /* ── UTIL ── */
+  .mt8  { margin-top: 8px; }
+  .mt16 { margin-top: 16px; }
+  .divider { width: 32px; height: 2px; background: var(--accent); margin: 8px 0; opacity: 0.5; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-left">
+    <div class="logo">Market <span>Command</span> Centre</div>
+    <nav class="nav-pills">
+      <a class="nav-pill" href="#macro">Macro</a>
+      <a class="nav-pill" href="#equities">Equities</a>
+      <a class="nav-pill" href="#breadth">Breadth</a>
+      <a class="nav-pill" href="#watchlist">Watchlist</a>
+      <a class="nav-pill" href="#calc">Calc</a>
+    </nav>
+  </div>
+  <div class="header-right">
+    <span id="live-clock">--:--:-- --</span>
+    <span id="updated-at">Data: loading...</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="container">
+    <div class="hero-label">EOD Snapshot · Auto-refreshed daily via GitHub Actions</div>
+    <h1 class="hero-title">Market <em>Command</em> Centre</h1>
+    <div class="divider"></div>
+    <div class="hero-quote">"If you fail to plan, you are planning to fail." — Benjamin Franklin</div>
+  </div>
+</div>
+
+<!-- SECTION 01: MACRO -->
+<div class="section container" id="macro">
+  <div class="section-header">
+    <span class="section-num">01</span>
+    <span class="section-title">Macro Overview</span>
+    <span class="section-sub">EOD Snapshot · Prev Close · Ranked by Category</span>
+  </div>
+  <div id="macro-content">
+    <p style="color:var(--text-mute);font-size:12px;padding:20px 0;">Loading macro data...</p>
+  </div>
+</div>
+
+<!-- SECTION 02: EQUITIES -->
+<div class="section container" id="equities">
+  <div class="section-header">
+    <span class="section-num">02</span>
+    <span class="section-title">Equities Overview</span>
+    <span class="section-sub">Ranked by 1W Performance</span>
+  </div>
+  <div id="equities-content">
+    <p style="color:var(--text-mute);font-size:12px;padding:20px 0;">Loading equities data...</p>
+  </div>
+</div>
+
+<!-- SECTION 03: BREADTH -->
+<div class="section container" id="breadth">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <span class="section-title">Market Breadth &amp; Sentiment</span>
+    <span class="section-sub">S&amp;P 500 Internals</span>
+  </div>
+  <div id="breadth-content">
+    <div class="breadth-grid" id="breadth-grid">
+      <p style="color:var(--text-mute);font-size:12px;">Loading breadth data...</p>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 04: WATCHLIST -->
+<div class="section container" id="watchlist">
+  <div class="section-header">
+    <span class="section-num">04</span>
+    <span class="section-title">My Watchlist</span>
+    <span class="section-sub">Custom Tickers · Edit in fetch_data.py</span>
+  </div>
+  <div id="watchlist-content">
+    <p style="color:var(--text-mute);font-size:12px;padding:20px 0;">Loading watchlist...</p>
+  </div>
+</div>
+
+<!-- SECTION 05: POSITION CALC -->
+<div class="section container" id="calc">
+  <div class="section-header">
+    <span class="section-num">05</span>
+    <span class="section-title">Position Sizing Calculator</span>
+    <span class="section-sub">Risk-Based · Staggered Stops</span>
+  </div>
+
+  <div class="calc-grid">
+    <!-- INPUTS -->
+    <div class="calc-panel">
+      <div class="calc-panel-title">▸ Trade Parameters</div>
+
+      <div class="direction-toggle">
+        <button class="dir-btn active long" id="btn-long" onclick="setDir('long')">▲ LONG</button>
+        <button class="dir-btn short"       id="btn-short" onclick="setDir('short')">▼ SHORT</button>
+      </div>
+
+      <div class="field-row">
+        <span class="field-label">Account Equity (USD)</span>
+        <input type="number" id="equity"   value="100000" min="0" step="1000" oninput="calc()" />
+      </div>
+      <div class="field-row">
+        <span class="field-label">Risk per Trade (%)</span>
+        <input type="number" id="risk-pct" value="1"      min="0" max="100" step="0.1" oninput="calc()" />
+      </div>
+      <div class="field-row">
+        <span class="field-label">Entry Price ($)</span>
+        <input type="number" id="entry"    value="100"    min="0" step="0.01" oninput="calc()" />
+      </div>
+      <div class="field-row">
+        <span class="field-label">Stop Loss ($)</span>
+        <input type="number" id="stop"     value="95"     min="0" step="0.01" oninput="calc()" />
+      </div>
+      <div class="field-row">
+        <span class="field-label">Target Price ($) <em style="font-size:10px;color:var(--text-mute)">(optional)</em></span>
+        <input type="number" id="target"   value="110"   min="0" step="0.01" oninput="calc()" />
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="calc-panel">
+      <div class="calc-panel-title">▸ Sizing Output</div>
+      <div class="calc-results" id="calc-results"></div>
+    </div>
+  </div>
+
+  <!-- STAGGERED STOPS -->
+  <div class="calc-panel mt16">
+    <div class="calc-panel-title">▸ Staggered Stop Levels</div>
+    <div id="stagger-out"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    Data sourced from Yahoo Finance via <a href="https://pypi.org/project/yfinance/" target="_blank">yfinance</a> ·
+    Auto-refreshed daily via GitHub Actions ·
+    For informational purposes only — not financial advice
+  </div>
+</footer>
+
+<script>
+// ══════════════════════════════════════════════
+// CLOCK
+// ══════════════════════════════════════════════
+function updateClock() {
+  const now = new Date();
+  const hkt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Hong_Kong',
+    hour: '2-digit', minute: '2-digit', second: '2-digit',
+    hour12: false
+  }).format(now);
+  const nzt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Pacific/Auckland',
+    hour: '2-digit', minute: '2-digit',
+    hour12: false
+  }).format(now);
+  document.getElementById('live-clock').textContent = `HKT ${hkt} · NZT ${nzt}`;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ══════════════════════════════════════════════
+// DATA LOADING
+// ══════════════════════════════════════════════
+let marketData = null;
+
+async function loadData() {
+  try {
+    const res = await fetch(`data/market_data.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    marketData = await res.json();
+
+    const dt = new Date(marketData.updated_at);
+    const formatted = dt.toISOString() === '1970-01-01T00:00:00.000Z'
+      ? 'No data yet — run fetch_data.py'
+      : dt.toLocaleString('en-US', { timeZone: 'Asia/Hong_Kong', dateStyle: 'short', timeStyle: 'short' }) + ' HKT';
+    document.getElementById('updated-at').textContent = `Updated: ${formatted}`;
+
+    renderAll();
+  } catch (e) {
+    document.getElementById('updated-at').textContent = 'Data load failed — run fetch_data.py first';
+    console.error('Data load error:', e);
+    renderEmpty();
+  }
+}
+
+function renderEmpty() {
+  const msg = `<p style="color:var(--text-mute);font-size:12px;padding:20px 0;font-style:italic;">
+    No data available. Run <code style="color:var(--accent)">python scripts/fetch_data.py</code> locally,
+    or trigger the GitHub Actions workflow.</p>`;
+  ['macro-content','equities-content','watchlist-content'].forEach(id => {
+    document.getElementById(id).innerHTML = msg;
+  });
+}
+
+// ══════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════
+function fmt(v, decimals = 2) {
+  if (v == null) return '—';
+  return Number(v).toFixed(decimals);
+}
+
+function fmtPrice(v) {
+  if (v == null) return '—';
+  const n = Number(v);
+  return n >= 1000 ? n.toLocaleString('en-US', { maximumFractionDigits: 2 })
+       : n >= 1    ? n.toFixed(2)
+                   : n.toFixed(4);
+}
+
+function pctClass(v) {
+  if (v == null) return 'neu';
+  return v > 0 ? 'pos' : v < 0 ? 'neg' : 'neu';
+}
+
+function pctCell(v, suffix = '%') {
+  if (v == null) return '<td class="neu">—</td>';
+  const cls = pctClass(v);
+  const sign = v > 0 ? '+' : '';
+  return `<td class="${cls}">${sign}${fmt(v)}${suffix}</td>`;
+}
+
+function sparkline(arr) {
+  if (!arr || arr.length < 2) return '';
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  const range = max - min || 1;
+  const isUp = arr[arr.length - 1] >= arr[0];
+  const color = isUp ? 'var(--green)' : 'var(--red)';
+  const bars = arr.map(v => {
+    const h = Math.max(3, Math.round(((v - min) / range) * 18));
+    return `<div class="spark-bar" style="height:${h}px;background:${color}"></div>`;
+  }).join('');
+  return `<div class="spark">${bars}</div>`;
+}
+
+function makeTable(rows, showRank = false, showTrend = true) {
+  if (!rows || rows.length === 0) {
+    return '<p style="color:var(--text-mute);font-size:11px;padding:8px 0;">No data</p>';
+  }
+
+  const headers = showRank
+    ? ['#', 'Ticker', 'Name', 'Price', '1D%', '1W%', 'YTD%', '52W Hi%', ...(showTrend ? ['5D'] : [])]
+    : ['Ticker', 'Name', 'Price', '1D%', '1W%', 'YTD%', '52W Hi%', ...(showTrend ? ['5D'] : [])];
+
+  const ths = headers.map((h, i) => {
+    const align = (i === 0 && !showRank) || (i <= 1 && showRank) ? 'left' : 'right';
+    return `<th style="text-align:${align}">${h}</th>`;
+  }).join('');
+
+  const trs = rows.map((r, i) => {
+    const rank = showRank ? `<td class="td-rank">${i + 1}</td>` : '';
+    return `<tr>
+      ${rank}
+      <td class="td-ticker">${r.ticker}</td>
+      <td class="td-name">${r.name}</td>
+      <td class="td-price">${fmtPrice(r.price)}</td>
+      ${pctCell(r.change_1d_pct)}
+      ${pctCell(r.change_1w_pct)}
+      ${pctCell(r.change_ytd_pct)}
+      ${pctCell(r.pct_from_52w_high)}
+      ${showTrend ? `<td>${sparkline(r.sparkline)}</td>` : ''}
+    </tr>`;
+  }).join('');
+
+  return `<table><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
+}
+
+function makeGroup(title, rows, sortByWeek = false, showRank = false, startOpen = false) {
+  const sorted = sortByWeek && rows
+    ? [...rows].sort((a, b) => (b.change_1w_pct ?? -999) - (a.change_1w_pct ?? -999))
+    : rows;
+
+  const openClass = startOpen ? ' open' : '';
+  return `
+    <div class="table-group${openClass}">
+      <div class="table-group-header" onclick="toggleGroup(this)">
+        <span class="group-toggle">▸</span>
+        <span class="group-title">${title}</span>
+        <span class="group-count">${rows ? rows.length : 0} instruments</span>
+      </div>
+      <div class="data-table-wrap">
+        ${makeTable(sorted, showRank)}
+      </div>
+    </div>`;
+}
+
+function toggleGroup(header) {
+  header.parentElement.classList.toggle('open');
+}
+
+// ══════════════════════════════════════════════
+// RENDER
+// ══════════════════════════════════════════════
+const MACRO_SECTIONS = ['us_futures','volatility_dollar','crypto','metals','energy','treasuries','global_indices'];
+const EQUITY_SECTIONS = ['major_etfs','sector_etfs','thematic_etfs','country_etfs'];
+
+function renderAll() {
+  if (!marketData || !marketData.sections) { renderEmpty(); return; }
+
+  // MACRO
+  let macroHTML = '';
+  MACRO_SECTIONS.forEach((key, i) => {
+    const sec = marketData.sections[key];
+    if (!sec) return;
+    macroHTML += makeGroup(sec.label, sec.rows, false, false, i === 0);
+  });
+  document.getElementById('macro-content').innerHTML = macroHTML || '<p style="color:var(--text-mute)">No data</p>';
+
+  // EQUITIES
+  let eqHTML = '';
+  EQUITY_SECTIONS.forEach((key, i) => {
+    const sec = marketData.sections[key];
+    if (!sec) return;
+    eqHTML += makeGroup(sec.label, sec.rows, true, true, i === 0);
+  });
+  document.getElementById('equities-content').innerHTML = eqHTML || '<p style="color:var(--text-mute)">No data</p>';
+
+  // BREADTH
+  renderBreadth();
+
+  // WATCHLIST
+  const wl = marketData.sections['watchlist'];
+  if (wl) {
+    const sorted = [...wl.rows].sort((a, b) => (b.change_1w_pct ?? -999) - (a.change_1w_pct ?? -999));
+    document.getElementById('watchlist-content').innerHTML = makeGroup(wl.label, sorted, false, true, true);
+  }
+}
+
+function renderBreadth() {
+  const b = marketData.breadth || {};
+  const grid = document.getElementById('breadth-grid');
+
+  const cards = [
+    {
+      label: 'SPX vs 200MA',
+      value: b.spx_vs_200ma_pct != null ? `${b.spx_vs_200ma_pct > 0 ? '+' : ''}${b.spx_vs_200ma_pct.toFixed(2)}%` : '—',
+      cls: b.spx_vs_200ma_pct > 0 ? 'green' : b.spx_vs_200ma_pct < 0 ? 'red' : '',
+      sub: 'S&P 500 price vs its 200-day MA'
+    },
+    {
+      label: 'RSP vs SPY 1W Spread',
+      value: b.rsp_spy_spread_1w != null ? `${b.rsp_spy_spread_1w > 0 ? '+' : ''}${b.rsp_spy_spread_1w.toFixed(2)}%` : '—',
+      cls: b.rsp_spy_spread_1w > 0 ? 'green' : 'red',
+      sub: 'Equal-weight vs Cap-weight (breadth proxy)'
+    },
+  ];
+
+  grid.innerHTML = cards.map(c => `
+    <div class="breadth-card">
+      <div class="breadth-label">${c.label}</div>
+      <div class="breadth-value ${c.cls === 'green' ? 'pos' : c.cls === 'red' ? 'neg' : ''}">${c.value}</div>
+      <div class="breadth-sub">${c.sub}</div>
+    </div>`).join('');
+}
+
+// ══════════════════════════════════════════════
+// CALCULATOR
+// ══════════════════════════════════════════════
+let direction = 'long';
+
+function setDir(d) {
+  direction = d;
+  document.getElementById('btn-long').classList.toggle('active', d === 'long');
+  document.getElementById('btn-short').classList.toggle('active', d === 'short');
+  calc();
+}
+
+function calc() {
+  const equity  = parseFloat(document.getElementById('equity').value)   || 0;
+  const riskPct = parseFloat(document.getElementById('risk-pct').value) || 0;
+  const entry   = parseFloat(document.getElementById('entry').value)    || 0;
+  const stop    = parseFloat(document.getElementById('stop').value)     || 0;
+  const target  = parseFloat(document.getElementById('target').value)   || 0;
+
+  const maxRisk   = equity * (riskPct / 100);
+  const riskShare = Math.abs(entry - stop);
+  if (riskShare === 0 || entry === 0) {
+    document.getElementById('calc-results').innerHTML = '<p style="color:var(--text-mute);font-size:11px">Enter valid entry and stop prices.</p>';
+    document.getElementById('stagger-out').innerHTML = '';
+    return;
+  }
+
+  const shares    = Math.floor(maxRisk / riskShare);
+  const posValue  = shares * entry;
+  const pctEquity = (posValue / equity) * 100;
+  const rr        = target > 0 ? Math.abs(target - entry) / riskShare : null;
+
+  const results = document.getElementById('calc-results');
+  results.innerHTML = `
+    <div class="result-row"><span class="result-key">Shares to Trade</span>    <span class="result-val accent">${shares.toLocaleString()}</span></div>
+    <div class="result-row"><span class="result-key">Max Risk ($)</span>        <span class="result-val red">$${maxRisk.toLocaleString('en-US',{maximumFractionDigits:2})}</span></div>
+    <div class="result-row"><span class="result-key">Position Value</span>      <span class="result-val">$${posValue.toLocaleString('en-US',{maximumFractionDigits:2})}</span></div>
+    <div class="result-row"><span class="result-key">% of Equity</span>         <span class="result-val">${pctEquity.toFixed(1)}%</span></div>
+    <div class="result-row"><span class="result-key">Risk per Share</span>       <span class="result-val">$${riskShare.toFixed(2)}</span></div>
+    ${rr != null ? `<div class="result-row"><span class="result-key">R:R Ratio</span><span class="result-val ${rr >= 2 ? 'green' : rr >= 1 ? 'accent' : 'red'}">${rr.toFixed(2)}:1</span></div>` : ''}
+    ${target > 0 ? `<div class="result-row"><span class="result-key">Profit at Target</span><span class="result-val green">$${(shares * Math.abs(target - entry)).toLocaleString('en-US',{maximumFractionDigits:2})}</span></div>` : ''}
+  `;
+
+  // Staggered stops
+  const stagger = document.getElementById('stagger-out');
+  const levels = [
+    { label: 'Stop 1 (50%)', price: stop, sharePct: 50 },
+    { label: 'Stop 2 (30%)', price: entry - riskShare * 0.5, sharePct: 30 },
+    { label: 'Stop 3 (20%)', price: entry - riskShare * 0.25, sharePct: 20 },
+  ];
+
+  const rows = levels.map(l => {
+    const exitShares = Math.round(shares * l.sharePct / 100);
+    const pnl = exitShares * (l.price - entry) * (direction === 'short' ? -1 : 1);
+    return `<tr>
+      <td>${l.label}</td>
+      <td class="td-price">$${l.price.toFixed(2)}</td>
+      <td>${exitShares}</td>
+      <td>${l.sharePct}%</td>
+      <td class="${pnl >= 0 ? 'pos' : 'neg'}">$${pnl.toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+
+  stagger.innerHTML = `
+    <table>
+      <thead><tr>
+        <th style="text-align:left">Level</th>
+        <th>Price</th>
+        <th>Shares</th>
+        <th>% of Position</th>
+        <th>P&L at Stop</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+// ══════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════
+loadData();
+calc();
+</script>
+</body>
+</html>
