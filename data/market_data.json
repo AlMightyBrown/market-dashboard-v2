@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T09:35:24.498218+00:00",
+  "updated_at": "2026-09-06T09:50:13.914044+00:00",
   "sections": {
     "us_futures": {
       "label": "US Index Futures",
@@ -10,8 +10,8 @@
           "change_1d_pct": -0.42,
           "change_1w_pct": 0.0,
           "change_ytd_pct": 11.9,
-          "pct_from_52w_high": -1.28,
-          "high_52w": 7822.5,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             7699.0,
             7642.75,
@@ -28,8 +28,8 @@
           "change_1d_pct": 0.14,
           "change_1w_pct": 0.25,
           "change_ytd_pct": 16.47,
-          "pct_from_52w_high": -3.74,
-          "high_52w": 30712.75,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             29513.0,
             29125.5,
@@ -46,8 +46,8 @@
           "change_1d_pct": -0.57,
           "change_1w_pct": -0.27,
           "change_ytd_pct": 9.92,
-          "pct_from_52w_high": -1.93,
-          "high_52w": 54494.0,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             53240.0,
             52828.0,
@@ -64,8 +64,8 @@
           "change_1d_pct": 0.23,
           "change_1w_pct": -0.03,
           "change_ytd_pct": 18.0,
-          "pct_from_52w_high": -3.2,
-          "high_52w": 3074.9,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             2958.7,
             2924.7,
@@ -123,8 +123,8 @@
           "change_1d_pct": 0.16,
           "change_1w_pct": -0.54,
           "change_ytd_pct": 0.75,
-          "pct_from_52w_high": -2.41,
-          "high_52w": 101.61,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             99.43,
             99.67,
@@ -159,55 +159,55 @@
       "label": "Crypto",
       "rows": [
         {
-          "price": 79698.83,
-          "prev_close": 79671.97,
-          "change_1d_pct": 0.03,
-          "change_1w_pct": 1.46,
-          "change_ytd_pct": -10.18,
-          "pct_from_52w_high": -17.78,
+          "price": 79864.02,
+          "prev_close": 79823.87,
+          "change_1d_pct": 0.05,
+          "change_1w_pct": 3.18,
+          "change_ytd_pct": -9.99,
+          "pct_from_52w_high": -17.61,
           "high_52w": 96929.33,
           "sparkline": [
-            77403.62,
             77300.48,
             81271.74,
             79671.97,
-            79698.83
+            79823.87,
+            79864.02
           ],
           "ticker": "BTC-USD",
           "name": "Bitcoin"
         },
         {
-          "price": 2458.98,
-          "prev_close": 2456.08,
-          "change_1d_pct": 0.12,
-          "change_1w_pct": -0.32,
-          "change_ytd_pct": -18.04,
-          "pct_from_52w_high": -26.7,
+          "price": 2497.06,
+          "prev_close": 2480.74,
+          "change_1d_pct": 0.66,
+          "change_1w_pct": 3.28,
+          "change_ytd_pct": -16.78,
+          "pct_from_52w_high": -25.57,
           "high_52w": 3354.72,
           "sparkline": [
-            2417.84,
             2391.5,
             2508.02,
             2456.08,
-            2458.98
+            2480.74,
+            2497.06
           ],
           "ticker": "ETH-USD",
           "name": "Ethereum"
         },
         {
-          "price": 102.61,
-          "prev_close": 101.95,
-          "change_1d_pct": 0.65,
-          "change_1w_pct": -0.38,
-          "change_ytd_pct": -19.05,
-          "pct_from_52w_high": -30.08,
+          "price": 106.45,
+          "prev_close": 103.19,
+          "change_1d_pct": 3.16,
+          "change_1w_pct": 6.46,
+          "change_ytd_pct": -16.02,
+          "pct_from_52w_high": -27.46,
           "high_52w": 146.75,
           "sparkline": [
-            99.99,
             100.39,
             103.98,
             101.95,
-            102.61
+            103.19,
+            106.45
           ],
           "ticker": "SOL-USD",
           "name": "Solana"
@@ -218,55 +218,55 @@
       "label": "Precious & Base Metals",
       "rows": [
         {
-          "price": 4429.8,
+          "price": 4476.6,
           "prev_close": 4491.7,
-          "change_1d_pct": -1.38,
-          "change_1w_pct": -1.08,
-          "change_ytd_pct": 2.67,
-          "pct_from_52w_high": -16.71,
-          "high_52w": 5318.4,
+          "change_1d_pct": -0.34,
+          "change_1w_pct": -0.03,
+          "change_ytd_pct": 3.76,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             4431.1,
             4348.0,
             4366.3,
             4491.7,
-            4429.8
+            4476.6
           ],
           "ticker": "GC=F",
           "name": "Gold"
         },
         {
-          "price": 66.05,
+          "price": 66.75,
           "prev_close": 66.97,
-          "change_1d_pct": -1.38,
-          "change_1w_pct": -1.42,
-          "change_ytd_pct": -6.39,
-          "pct_from_52w_high": -42.61,
-          "high_52w": 115.08,
+          "change_1d_pct": -0.34,
+          "change_1w_pct": -0.37,
+          "change_ytd_pct": -5.4,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             66.22,
             64.62,
             64.72,
             66.97,
-            66.05
+            66.75
           ],
           "ticker": "SI=F",
           "name": "Silver"
         },
         {
-          "price": 6.6,
+          "price": 6.68,
           "prev_close": 6.58,
-          "change_1d_pct": 0.3,
-          "change_1w_pct": 0.53,
-          "change_ytd_pct": 16.97,
-          "pct_from_52w_high": -1.68,
-          "high_52w": 6.71,
+          "change_1d_pct": 1.6,
+          "change_1w_pct": 1.84,
+          "change_ytd_pct": 18.48,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             6.59,
             6.51,
             6.5,
             6.58,
-            6.6
+            6.68
           ],
           "ticker": "HG=F",
           "name": "Copper"
@@ -282,8 +282,8 @@
           "change_1d_pct": 0.2,
           "change_1w_pct": 9.69,
           "change_ytd_pct": 59.6,
-          "pct_from_52w_high": -19.01,
-          "high_52w": 112.95,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             85.76,
             90.22,
@@ -300,8 +300,8 @@
           "change_1d_pct": 0.8,
           "change_1w_pct": 7.8,
           "change_ytd_pct": 58.49,
-          "pct_from_52w_high": -18.65,
-          "high_52w": 118.35,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             90.49,
             94.65,
@@ -318,8 +318,8 @@
           "change_1d_pct": 2.13,
           "change_1w_pct": 3.01,
           "change_ytd_pct": -17.77,
-          "pct_from_52w_high": -60.12,
-          "high_52w": 7.46,
+          "pct_from_52w_high": null,
+          "high_52w": null,
           "sparkline": [
             2.93,
             2.9,
