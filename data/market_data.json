@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T09:43:07.076749+00:00",
+  "updated_at": "2026-09-13T10:44:43.559456+00:00",
   "sections": {
     "us_futures": {
       "label": "US Index Futures",
@@ -41,11 +41,11 @@
           "name": "Nasdaq 100 Futures"
         },
         {
-          "price": 52585.0,
+          "price": 52576.0,
           "prev_close": 52095.0,
-          "change_1d_pct": 0.94,
-          "change_1w_pct": -2.16,
-          "change_ytd_pct": 8.16,
+          "change_1d_pct": 0.92,
+          "change_1w_pct": -2.18,
+          "change_ytd_pct": 8.15,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -53,7 +53,7 @@
             52832.0,
             52425.0,
             52095.0,
-            52585.0
+            52576.0
           ],
           "ticker": "YM=F",
           "name": "Dow Futures"
@@ -138,10 +138,10 @@
         {
           "price": 1.16,
           "prev_close": 1.16,
-          "change_1d_pct": -0.27,
-          "change_1w_pct": -0.22,
-          "change_ytd_pct": -1.26,
-          "pct_from_52w_high": -3.46,
+          "change_1d_pct": -0.28,
+          "change_1w_pct": -0.24,
+          "change_ytd_pct": -1.27,
+          "pct_from_52w_high": -3.47,
           "high_52w": 1.2,
           "sparkline": [
             1.16,
@@ -159,55 +159,55 @@
       "label": "Crypto",
       "rows": [
         {
-          "price": 77343.53,
-          "prev_close": 77173.8,
-          "change_1d_pct": 0.22,
-          "change_1w_pct": -2.24,
-          "change_ytd_pct": -12.83,
-          "pct_from_52w_high": -20.21,
+          "price": 76661.78,
+          "prev_close": 77270.47,
+          "change_1d_pct": -0.79,
+          "change_1w_pct": -2.27,
+          "change_ytd_pct": -13.6,
+          "pct_from_52w_high": -20.91,
           "high_52w": 96929.33,
           "sparkline": [
-            78438.58,
             78259.52,
             76568.12,
             77173.8,
-            77343.53
+            77270.47,
+            76661.78
           ],
           "ticker": "BTC-USD",
           "name": "Bitcoin"
         },
         {
-          "price": 2533.39,
-          "prev_close": 2514.73,
-          "change_1d_pct": 0.74,
-          "change_1w_pct": 1.7,
-          "change_ytd_pct": -15.56,
-          "pct_from_52w_high": -24.48,
+          "price": 2474.15,
+          "prev_close": 2525.94,
+          "change_1d_pct": -2.05,
+          "change_1w_pct": -0.43,
+          "change_ytd_pct": -17.54,
+          "pct_from_52w_high": -26.25,
           "high_52w": 3354.72,
           "sparkline": [
-            2484.94,
             2466.91,
             2437.1,
             2514.73,
-            2533.39
+            2525.94,
+            2474.15
           ],
           "ticker": "ETH-USD",
           "name": "Ethereum"
         },
         {
-          "price": 102.14,
-          "prev_close": 102.4,
-          "change_1d_pct": -0.25,
-          "change_1w_pct": -1.66,
-          "change_ytd_pct": -19.42,
-          "pct_from_52w_high": -30.4,
+          "price": 99.52,
+          "prev_close": 101.79,
+          "change_1d_pct": -2.23,
+          "change_1w_pct": -3.68,
+          "change_ytd_pct": -21.49,
+          "pct_from_52w_high": -32.19,
           "high_52w": 146.75,
           "sparkline": [
-            103.33,
             101.61,
             98.69,
             102.4,
-            102.14
+            101.79,
+            99.52
           ],
           "ticker": "SOL-USD",
           "name": "Solana"
@@ -218,11 +218,11 @@
       "label": "Precious & Base Metals",
       "rows": [
         {
-          "price": 4366.2,
+          "price": 4408.9,
           "prev_close": 4364.5,
-          "change_1d_pct": 0.04,
-          "change_1w_pct": -2.79,
-          "change_ytd_pct": 1.2,
+          "change_1d_pct": 1.02,
+          "change_1w_pct": -1.84,
+          "change_ytd_pct": 2.19,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -230,17 +230,17 @@
             4393.9,
             4416.0,
             4364.5,
-            4366.2
+            4408.9
           ],
           "ticker": "GC=F",
           "name": "Gold"
         },
         {
-          "price": 64.55,
+          "price": 65.19,
           "prev_close": 64.28,
-          "change_1d_pct": 0.42,
-          "change_1w_pct": -3.61,
-          "change_ytd_pct": -8.51,
+          "change_1d_pct": 1.41,
+          "change_1w_pct": -2.67,
+          "change_ytd_pct": -7.61,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -248,17 +248,17 @@
             66.3,
             67.94,
             64.28,
-            64.55
+            65.19
           ],
           "ticker": "SI=F",
           "name": "Silver"
         },
         {
-          "price": 6.47,
+          "price": 6.55,
           "prev_close": 6.47,
-          "change_1d_pct": 0.04,
-          "change_1w_pct": -1.63,
-          "change_ytd_pct": 14.71,
+          "change_1d_pct": 1.25,
+          "change_1w_pct": -0.44,
+          "change_ytd_pct": 16.1,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -266,7 +266,7 @@
             6.74,
             6.8,
             6.47,
-            6.47
+            6.55
           ],
           "ticker": "HG=F",
           "name": "Copper"
