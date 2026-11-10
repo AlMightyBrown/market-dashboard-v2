@@ -1,77 +1,77 @@
 {
-  "updated_at": "2026-11-09T14:35:11.541386+00:00",
+  "updated_at": "2026-11-10T13:54:05.551092+00:00",
   "sections": {
     "us_futures": {
       "label": "US Index Futures",
       "rows": [
         {
-          "price": 7461.75,
-          "prev_close": 7402.0,
-          "change_1d_pct": 0.81,
-          "change_1w_pct": -1.49,
-          "change_ytd_pct": 8.13,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 7530.0,
+          "prev_close": 7574.25,
+          "change_1d_pct": -0.58,
+          "change_1w_pct": -0.88,
+          "change_ytd_pct": 9.12,
+          "pct_from_52w_high": -4.37,
+          "high_52w": 7874.0,
           "sparkline": [
-            7596.75,
             7720.5,
             7383.0,
             7402.0,
-            7461.75
+            7574.25,
+            7530.0
           ],
           "ticker": "ES=F",
           "name": "S&P 500 Futures"
         },
         {
-          "price": 27312.0,
-          "prev_close": 27085.25,
-          "change_1d_pct": 0.84,
-          "change_1w_pct": -2.9,
-          "change_ytd_pct": 7.59,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 27690.5,
+          "prev_close": 28014.5,
+          "change_1d_pct": -1.16,
+          "change_1w_pct": -2.17,
+          "change_ytd_pct": 9.08,
+          "pct_from_52w_high": -12.05,
+          "high_52w": 31483.25,
           "sparkline": [
-            28305.75,
             28566.75,
             26752.0,
             27085.25,
-            27312.0
+            28014.5,
+            27690.5
           ],
           "ticker": "NQ=F",
           "name": "Nasdaq 100 Futures"
         },
         {
-          "price": 52019.0,
-          "prev_close": 51385.0,
-          "change_1d_pct": 1.23,
-          "change_1w_pct": -0.22,
-          "change_ytd_pct": 7.0,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 52471.0,
+          "prev_close": 52498.0,
+          "change_1d_pct": -0.05,
+          "change_1w_pct": 1.11,
+          "change_ytd_pct": 7.93,
+          "pct_from_52w_high": -3.71,
+          "high_52w": 54494.0,
           "sparkline": [
-            51895.0,
             53503.0,
             51615.0,
             51385.0,
-            52019.0
+            52498.0,
+            52471.0
           ],
           "ticker": "YM=F",
           "name": "Dow Futures"
         },
         {
-          "price": 2800.8,
-          "prev_close": 2760.5,
-          "change_1d_pct": 1.46,
-          "change_1w_pct": -0.6,
-          "change_ytd_pct": 11.03,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 2826.6,
+          "prev_close": 2848.7,
+          "change_1d_pct": -0.78,
+          "change_1w_pct": 0.06,
+          "change_ytd_pct": 12.06,
+          "pct_from_52w_high": -8.08,
+          "high_52w": 3074.9,
           "sparkline": [
-            2825.0,
             2865.9,
             2735.4,
             2760.5,
-            2800.8
+            2848.7,
+            2826.6
           ],
           "ticker": "RTY=F",
           "name": "Russell 2000 Futures"
@@ -82,72 +82,72 @@
       "label": "Volatility & Dollar",
       "rows": [
         {
-          "price": 23.19,
-          "prev_close": 25.64,
-          "change_1d_pct": -9.56,
-          "change_1w_pct": 9.65,
-          "change_ytd_pct": 59.82,
-          "pct_from_52w_high": -25.31,
+          "price": 20.93,
+          "prev_close": 19.92,
+          "change_1d_pct": 5.07,
+          "change_1w_pct": 0.48,
+          "change_ytd_pct": 44.25,
+          "pct_from_52w_high": -32.59,
           "high_52w": 31.05,
           "sparkline": [
-            20.83,
             16.61,
             28.18,
             25.64,
-            23.19
+            19.92,
+            20.93
           ],
           "ticker": "^VIX",
           "name": "VIX"
         },
         {
-          "price": 24.6,
-          "prev_close": 25.55,
-          "change_1d_pct": -3.72,
-          "change_1w_pct": 18.38,
-          "change_ytd_pct": 36.51,
+          "price": 20.85,
+          "prev_close": 24.6,
+          "change_1d_pct": -15.24,
+          "change_1w_pct": -3.47,
+          "change_ytd_pct": 15.7,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
-            21.6,
             21.27,
             18.8,
             25.55,
-            24.6
+            24.6,
+            20.85
           ],
           "ticker": "^VIX3M",
           "name": "VIX3M"
         },
         {
-          "price": 101.83,
-          "prev_close": 102.3,
-          "change_1d_pct": -0.46,
-          "change_1w_pct": 0.08,
-          "change_ytd_pct": 3.46,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 101.97,
+          "prev_close": 101.65,
+          "change_1d_pct": 0.32,
+          "change_1w_pct": 0.1,
+          "change_ytd_pct": 3.61,
+          "pct_from_52w_high": -0.59,
+          "high_52w": 102.58,
           "sparkline": [
-            101.87,
             101.51,
             101.55,
             102.3,
-            101.83
+            101.65,
+            101.97
           ],
           "ticker": "DX-Y.NYB",
           "name": "DXY (US Dollar Index)"
         },
         {
           "price": 1.12,
-          "prev_close": 1.12,
-          "change_1d_pct": -0.28,
-          "change_1w_pct": 0.36,
-          "change_ytd_pct": -4.71,
-          "pct_from_52w_high": -6.83,
+          "prev_close": 1.11,
+          "change_1d_pct": 0.41,
+          "change_1w_pct": 0.01,
+          "change_ytd_pct": -4.74,
+          "pct_from_52w_high": -6.86,
           "high_52w": 1.2,
           "sparkline": [
             1.12,
             1.12,
             1.12,
-            1.12,
+            1.11,
             1.12
           ],
           "ticker": "EURUSD=X",
@@ -159,55 +159,55 @@
       "label": "Crypto",
       "rows": [
         {
-          "price": 74496.26,
-          "prev_close": 74584.65,
-          "change_1d_pct": -0.12,
-          "change_1w_pct": -7.35,
-          "change_ytd_pct": -16.04,
-          "pct_from_52w_high": -13.98,
+          "price": 73819.52,
+          "prev_close": 75223.15,
+          "change_1d_pct": -1.87,
+          "change_1w_pct": -2.8,
+          "change_ytd_pct": -16.81,
+          "pct_from_52w_high": -14.76,
           "high_52w": 86602.91,
           "sparkline": [
-            75942.12,
             75746.93,
             75747.58,
             74584.65,
-            74496.26
+            75223.15,
+            73819.52
           ],
           "ticker": "BTC-USD",
           "name": "Bitcoin"
         },
         {
-          "price": 2123.97,
-          "prev_close": 2120.98,
-          "change_1d_pct": 0.14,
-          "change_1w_pct": -12.32,
-          "change_ytd_pct": -29.21,
-          "pct_from_52w_high": -23.5,
+          "price": 2066.66,
+          "prev_close": 2131.5,
+          "change_1d_pct": -3.04,
+          "change_1w_pct": -7.51,
+          "change_ytd_pct": -31.12,
+          "pct_from_52w_high": -25.57,
           "high_52w": 2776.47,
           "sparkline": [
-            2234.48,
             2235.05,
             2236.32,
             2120.98,
-            2123.97
+            2131.5,
+            2066.66
           ],
           "ticker": "ETH-USD",
           "name": "Ethereum"
         },
         {
-          "price": 87.12,
-          "prev_close": 86.24,
-          "change_1d_pct": 1.02,
-          "change_1w_pct": -8.76,
-          "change_ytd_pct": -31.27,
-          "pct_from_52w_high": -28.62,
+          "price": 84.16,
+          "prev_close": 86.55,
+          "change_1d_pct": -2.76,
+          "change_1w_pct": -5.59,
+          "change_ytd_pct": -33.61,
+          "pct_from_52w_high": -31.05,
           "high_52w": 122.06,
           "sparkline": [
-            89.14,
             90.06,
             89.67,
             86.24,
-            87.12
+            86.55,
+            84.16
           ],
           "ticker": "SOL-USD",
           "name": "Solana"
@@ -218,55 +218,55 @@
       "label": "Precious & Base Metals",
       "rows": [
         {
-          "price": 4136.6,
-          "prev_close": 4074.9,
-          "change_1d_pct": 1.51,
-          "change_1w_pct": 4.21,
-          "change_ytd_pct": -4.46,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 4065.0,
+          "prev_close": 4114.5,
+          "change_1d_pct": -1.2,
+          "change_1w_pct": 3.16,
+          "change_ytd_pct": -6.11,
+          "pct_from_52w_high": -23.57,
+          "high_52w": 5318.4,
           "sparkline": [
-            3940.4,
             4073.0,
             4113.5,
             4074.9,
-            4136.6
+            4114.5,
+            4065.0
           ],
           "ticker": "GC=F",
           "name": "Gold"
         },
         {
-          "price": 52.74,
-          "prev_close": 51.8,
-          "change_1d_pct": 1.81,
-          "change_1w_pct": 3.98,
-          "change_ytd_pct": -25.25,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 52.06,
+          "prev_close": 52.56,
+          "change_1d_pct": -0.97,
+          "change_1w_pct": 4.98,
+          "change_ytd_pct": -26.22,
+          "pct_from_52w_high": -54.77,
+          "high_52w": 115.08,
           "sparkline": [
-            49.59,
             52.12,
             52.23,
             51.8,
-            52.74
+            52.56,
+            52.06
           ],
           "ticker": "SI=F",
           "name": "Silver"
         },
         {
-          "price": 6.33,
-          "prev_close": 6.22,
-          "change_1d_pct": 1.82,
-          "change_1w_pct": -3.25,
-          "change_ytd_pct": 12.25,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 6.28,
+          "prev_close": 6.33,
+          "change_1d_pct": -0.84,
+          "change_1w_pct": -1.61,
+          "change_ytd_pct": 11.27,
+          "pct_from_52w_high": -7.76,
+          "high_52w": 6.8,
           "sparkline": [
-            6.38,
             6.4,
             6.25,
             6.22,
-            6.33
+            6.33,
+            6.28
           ],
           "ticker": "HG=F",
           "name": "Copper"
@@ -277,55 +277,55 @@
       "label": "Energy Commodities",
       "rows": [
         {
-          "price": 86.44,
-          "prev_close": 90.83,
-          "change_1d_pct": -4.83,
-          "change_1w_pct": -10.39,
-          "change_ytd_pct": 50.8,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 84.15,
+          "prev_close": 86.85,
+          "change_1d_pct": -3.11,
+          "change_1w_pct": -12.43,
+          "change_ytd_pct": 46.81,
+          "pct_from_52w_high": -25.5,
+          "high_52w": 112.95,
           "sparkline": [
-            96.09,
             88.12,
             90.52,
             90.83,
-            86.44
+            86.85,
+            84.15
           ],
           "ticker": "CL=F",
           "name": "Crude Oil (WTI)"
         },
         {
-          "price": 92.95,
-          "prev_close": 98.32,
-          "change_1d_pct": -5.46,
-          "change_1w_pct": -11.28,
-          "change_ytd_pct": 53.0,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 89.29,
+          "prev_close": 92.57,
+          "change_1d_pct": -3.54,
+          "change_1w_pct": -13.81,
+          "change_ytd_pct": 46.98,
+          "pct_from_52w_high": -24.55,
+          "high_52w": 118.35,
           "sparkline": [
-            103.6,
             94.62,
             98.29,
             98.32,
-            92.95
+            92.57,
+            89.29
           ],
           "ticker": "BZ=F",
           "name": "Brent Crude"
         },
         {
-          "price": 3.15,
-          "prev_close": 3.0,
-          "change_1d_pct": 4.94,
-          "change_1w_pct": 10.15,
-          "change_ytd_pct": -13.05,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 3.21,
+          "prev_close": 3.22,
+          "change_1d_pct": -0.09,
+          "change_1w_pct": 11.05,
+          "change_ytd_pct": -11.14,
+          "pct_from_52w_high": -56.9,
+          "high_52w": 7.46,
           "sparkline": [
-            2.89,
             2.96,
             2.95,
             3.0,
-            3.15
+            3.22,
+            3.21
           ],
           "ticker": "NG=F",
           "name": "Natural Gas"
@@ -336,73 +336,73 @@
       "label": "US Treasury Yields",
       "rows": [
         {
-          "price": 4.02,
-          "prev_close": 4.0,
-          "change_1d_pct": 0.45,
-          "change_1w_pct": 0.9,
-          "change_ytd_pct": 13.73,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 4.11,
+          "prev_close": 4.03,
+          "change_1d_pct": 1.78,
+          "change_1w_pct": 2.04,
+          "change_ytd_pct": 16.25,
+          "pct_from_52w_high": 0.0,
+          "high_52w": 4.11,
           "sparkline": [
-            4.03,
             4.03,
             3.99,
             4.0,
-            4.02
+            4.03,
+            4.11
           ],
           "ticker": "^IRX",
           "name": "3-Month T-Bill"
         },
         {
-          "price": 4.63,
-          "prev_close": 4.65,
-          "change_1d_pct": -0.45,
-          "change_1w_pct": -1.41,
-          "change_ytd_pct": 23.75,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "price": 4.77,
+          "prev_close": 4.66,
+          "change_1d_pct": 2.45,
+          "change_1w_pct": 0.63,
+          "change_ytd_pct": 27.65,
+          "pct_from_52w_high": -6.21,
+          "high_52w": 5.09,
           "sparkline": [
-            4.74,
             4.69,
             4.61,
             4.65,
-            4.63
+            4.66,
+            4.77
           ],
           "ticker": "^FVX",
           "name": "5-Year Yield"
         },
         {
-          "price": 4.83,
+          "price": 4.94,
           "prev_close": 4.86,
-          "change_1d_pct": -0.54,
-          "change_1w_pct": -1.25,
-          "change_ytd_pct": 15.43,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "change_1d_pct": 1.56,
+          "change_1w_pct": -0.24,
+          "change_ytd_pct": 17.98,
+          "pct_from_52w_high": -6.99,
+          "high_52w": 5.31,
           "sparkline": [
-            4.95,
             4.89,
             4.84,
             4.86,
-            4.83
+            4.86,
+            4.94
           ],
           "ticker": "^TNX",
           "name": "10-Year Yield"
         },
         {
-          "price": 5.23,
+          "price": 5.3,
           "prev_close": 5.26,
-          "change_1d_pct": -0.48,
-          "change_1w_pct": -0.65,
-          "change_ytd_pct": 7.63,
-          "pct_from_52w_high": null,
-          "high_52w": null,
+          "change_1d_pct": 0.76,
+          "change_1w_pct": -0.53,
+          "change_ytd_pct": 8.88,
+          "pct_from_52w_high": -6.51,
+          "high_52w": 5.66,
           "sparkline": [
-            5.32,
             5.28,
             5.25,
             5.26,
-            5.23
+            5.26,
+            5.3
           ],
           "ticker": "^TYX",
           "name": "30-Year Yield"
@@ -413,11 +413,11 @@
       "label": "Global Market Indices",
       "rows": [
         {
-          "price": 7461.75,
+          "price": 7549.94,
           "prev_close": 7376.86,
-          "change_1d_pct": 1.15,
-          "change_1w_pct": -1.06,
-          "change_ytd_pct": 8.8,
+          "change_1d_pct": 2.35,
+          "change_1w_pct": 0.11,
+          "change_ytd_pct": 10.08,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -425,17 +425,17 @@
             7688.62,
             7353.73,
             7376.86,
-            7461.75
+            7549.94
           ],
           "ticker": "^GSPC",
           "name": "S&P 500"
         },
         {
-          "price": 27393.53,
+          "price": 27907.63,
           "prev_close": 26989.99,
-          "change_1d_pct": 1.5,
-          "change_1w_pct": -2.13,
-          "change_ytd_pct": 8.68,
+          "change_1d_pct": 3.4,
+          "change_1w_pct": -0.29,
+          "change_ytd_pct": 10.72,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -443,17 +443,17 @@
             28437.17,
             26629.81,
             26989.99,
-            27393.53
+            27907.63
           ],
           "ticker": "^NDX",
           "name": "Nasdaq 100"
         },
         {
-          "price": 51886.75,
+          "price": 52389.75,
           "prev_close": 51285.73,
-          "change_1d_pct": 1.17,
-          "change_1w_pct": -0.19,
-          "change_ytd_pct": 7.24,
+          "change_1d_pct": 2.15,
+          "change_1w_pct": 0.78,
+          "change_ytd_pct": 8.28,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -461,97 +461,97 @@
             53356.12,
             51523.06,
             51285.73,
-            51886.75
+            52389.75
           ],
           "ticker": "^DJI",
           "name": "Dow Jones"
         },
         {
-          "price": 2754.11,
-          "prev_close": 2729.89,
-          "change_1d_pct": 0.89,
-          "change_1w_pct": -2.05,
-          "change_ytd_pct": 9.8,
+          "price": 2840.81,
+          "prev_close": 2754.11,
+          "change_1d_pct": 3.15,
+          "change_1w_pct": 1.24,
+          "change_ytd_pct": 13.26,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
-            2805.88,
             2812.45,
             2856.95,
             2729.89,
-            2754.11
+            2754.11,
+            2840.81
           ],
           "ticker": "^RUT",
           "name": "Russell 2000"
         },
         {
-          "price": 24448.95,
-          "prev_close": 24481.86,
-          "change_1d_pct": -0.13,
-          "change_1w_pct": 4.51,
-          "change_ytd_pct": -7.17,
+          "price": 24557.04,
+          "prev_close": 24448.95,
+          "change_1d_pct": 0.44,
+          "change_1w_pct": 4.38,
+          "change_ytd_pct": -6.76,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
-            23525.97,
             23919.5,
             24796.98,
             24481.86,
-            24448.95
+            24448.95,
+            24557.04
           ],
           "ticker": "^HSI",
           "name": "Hang Seng"
         },
         {
-          "price": 58775.5,
-          "prev_close": 57434.77,
-          "change_1d_pct": 2.33,
-          "change_1w_pct": -7.13,
-          "change_ytd_pct": 13.39,
+          "price": 60459.58,
+          "prev_close": 58775.5,
+          "change_1d_pct": 2.87,
+          "change_1w_pct": -4.16,
+          "change_ytd_pct": 16.64,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
-            63081.86,
             62188.63,
             61077.9,
             57434.77,
-            58775.5
+            58775.5,
+            60459.58
           ],
           "ticker": "^N225",
           "name": "Nikkei 225"
         },
         {
-          "price": 10752.39,
-          "prev_close": 10673.9,
-          "change_1d_pct": 0.74,
-          "change_1w_pct": -0.08,
-          "change_ytd_pct": 8.05,
-          "pct_from_52w_high": -1.45,
+          "price": 10821.97,
+          "prev_close": 10782.9,
+          "change_1d_pct": 0.36,
+          "change_1w_pct": 1.73,
+          "change_ytd_pct": 8.75,
+          "pct_from_52w_high": -0.81,
           "high_52w": 10910.6,
           "sparkline": [
-            10638.4,
             10829.2,
             10782.7,
             10673.9,
-            10752.39
+            10782.9,
+            10821.97
           ],
           "ticker": "^FTSE",
           "name": "FTSE 100"
         },
         {
-          "price": 26180.85,
-          "prev_close": 25820.36,
-          "change_1d_pct": 1.4,
-          "change_1w_pct": 0.77,
-          "change_ytd_pct": 6.69,
-          "pct_from_52w_high": -1.46,
+          "price": 26557.63,
+          "prev_close": 26267.19,
+          "change_1d_pct": 1.11,
+          "change_1w_pct": 2.68,
+          "change_ytd_pct": 8.22,
+          "pct_from_52w_high": -0.05,
           "high_52w": 26569.99,
           "sparkline": [
-            25864.62,
             26437.67,
             26325.01,
             25820.36,
-            26180.85
+            26267.19,
+            26557.63
           ],
           "ticker": "^GDAXI",
           "name": "DAX"
@@ -562,11 +562,11 @@
       "label": "Major ETFs",
       "rows": [
         {
-          "price": 744.02,
+          "price": 752.69,
           "prev_close": 735.29,
-          "change_1d_pct": 1.19,
-          "change_1w_pct": -1.07,
-          "change_ytd_pct": 9.76,
+          "change_1d_pct": 2.37,
+          "change_1w_pct": 0.08,
+          "change_ytd_pct": 11.04,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -574,17 +574,17 @@
             766.81,
             733.0,
             735.29,
-            744.02
+            752.69
           ],
           "ticker": "SPY",
           "name": "SPDR S&P 500"
         },
         {
-          "price": 666.61,
+          "price": 679.35,
           "prev_close": 656.1,
-          "change_1d_pct": 1.6,
-          "change_1w_pct": -2.13,
-          "change_ytd_pct": 9.09,
+          "change_1d_pct": 3.54,
+          "change_1w_pct": -0.26,
+          "change_ytd_pct": 11.18,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -592,17 +592,17 @@
             691.95,
             647.05,
             656.1,
-            666.61
+            679.35
           ],
           "ticker": "QQQ",
           "name": "Invesco Nasdaq 100"
         },
         {
-          "price": 277.76,
+          "price": 282.51,
           "prev_close": 273.67,
-          "change_1d_pct": 1.49,
-          "change_1w_pct": -0.49,
-          "change_ytd_pct": 12.41,
+          "change_1d_pct": 3.23,
+          "change_1w_pct": 1.21,
+          "change_ytd_pct": 14.33,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -610,17 +610,17 @@
             284.02,
             270.98,
             273.67,
-            277.76
+            282.51
           ],
           "ticker": "IWM",
           "name": "iShares Russell 2000"
         },
         {
-          "price": 518.22,
+          "price": 523.33,
           "prev_close": 512.22,
-          "change_1d_pct": 1.17,
-          "change_1w_pct": -0.22,
-          "change_ytd_pct": 8.35,
+          "change_1d_pct": 2.17,
+          "change_1w_pct": 0.77,
+          "change_ytd_pct": 9.42,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -628,17 +628,17 @@
             533.11,
             514.27,
             512.22,
-            518.22
+            523.33
           ],
           "ticker": "DIA",
           "name": "SPDR Dow Jones"
         },
         {
-          "price": 377.83,
+          "price": 379.53,
           "prev_close": 372.52,
-          "change_1d_pct": 1.43,
-          "change_1w_pct": 4.47,
-          "change_ytd_pct": -5.13,
+          "change_1d_pct": 1.88,
+          "change_1w_pct": 4.94,
+          "change_ytd_pct": -4.71,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -646,17 +646,17 @@
             372.49,
             375.49,
             372.52,
-            377.83
+            379.53
           ],
           "ticker": "GLD",
           "name": "SPDR Gold"
         },
         {
-          "price": 82.14,
+          "price": 81.96,
           "prev_close": 81.92,
-          "change_1d_pct": 0.27,
-          "change_1w_pct": 0.5,
-          "change_ytd_pct": -2.33,
+          "change_1d_pct": 0.05,
+          "change_1w_pct": 0.28,
+          "change_ytd_pct": -2.54,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -664,7 +664,7 @@
             81.76,
             81.93,
             81.92,
-            82.14
+            81.96
           ],
           "ticker": "TLT",
           "name": "iShares 20Y Treasury"
@@ -675,11 +675,11 @@
       "label": "S&P 500 Sectors",
       "rows": [
         {
-          "price": 166.72,
+          "price": 170.88,
           "prev_close": 164.74,
-          "change_1d_pct": 1.2,
-          "change_1w_pct": -4.3,
-          "change_ytd_pct": 15.95,
+          "change_1d_pct": 3.73,
+          "change_1w_pct": -1.92,
+          "change_ytd_pct": 18.85,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -687,17 +687,17 @@
             176.5,
             162.38,
             164.74,
-            166.72
+            170.88
           ],
           "ticker": "XLK",
           "name": "Technology"
         },
         {
-          "price": 57.46,
+          "price": 57.99,
           "prev_close": 57.16,
-          "change_1d_pct": 0.52,
-          "change_1w_pct": -0.18,
-          "change_ytd_pct": 5.88,
+          "change_1d_pct": 1.45,
+          "change_1w_pct": 0.75,
+          "change_ytd_pct": 6.86,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -705,17 +705,17 @@
             59.2,
             57.5,
             57.16,
-            57.46
+            57.99
           ],
           "ticker": "XLF",
           "name": "Financials"
         },
         {
-          "price": 185.79,
+          "price": 188.33,
           "prev_close": 184.8,
-          "change_1d_pct": 0.54,
-          "change_1w_pct": 0.64,
-          "change_ytd_pct": 20.95,
+          "change_1d_pct": 1.91,
+          "change_1w_pct": 2.02,
+          "change_ytd_pct": 22.61,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -723,17 +723,17 @@
             189.66,
             184.91,
             184.8,
-            185.79
+            188.33
           ],
           "ticker": "XLV",
           "name": "Health Care"
         },
         {
-          "price": 61.23,
+          "price": 61.94,
           "prev_close": 61.62,
-          "change_1d_pct": -0.63,
-          "change_1w_pct": -8.95,
-          "change_ytd_pct": 36.79,
+          "change_1d_pct": 0.52,
+          "change_1w_pct": -7.9,
+          "change_ytd_pct": 38.37,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -741,17 +741,17 @@
             63.52,
             61.63,
             61.62,
-            61.23
+            61.94
           ],
           "ticker": "XLE",
           "name": "Energy"
         },
         {
-          "price": 165.85,
+          "price": 168.89,
           "prev_close": 162.67,
-          "change_1d_pct": 1.95,
-          "change_1w_pct": -2.27,
-          "change_ytd_pct": 5.82,
+          "change_1d_pct": 3.82,
+          "change_1w_pct": -0.48,
+          "change_ytd_pct": 7.76,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -759,17 +759,17 @@
             169.46,
             162.47,
             162.67,
-            165.85
+            168.89
           ],
           "ticker": "XLI",
           "name": "Industrials"
         },
         {
-          "price": 106.83,
+          "price": 107.36,
           "prev_close": 104.79,
-          "change_1d_pct": 1.95,
-          "change_1w_pct": 6.55,
-          "change_ytd_pct": -7.78,
+          "change_1d_pct": 2.45,
+          "change_1w_pct": 7.08,
+          "change_ytd_pct": -7.32,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -777,17 +777,17 @@
             104.96,
             104.34,
             104.79,
-            106.83
+            107.36
           ],
           "ticker": "XLC",
           "name": "Communication Services"
         },
         {
-          "price": 120.76,
+          "price": 121.01,
           "prev_close": 117.58,
-          "change_1d_pct": 2.7,
-          "change_1w_pct": 2.2,
-          "change_ytd_pct": 2.67,
+          "change_1d_pct": 2.92,
+          "change_1w_pct": 2.41,
+          "change_ytd_pct": 2.88,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -795,17 +795,17 @@
             122.33,
             117.64,
             117.58,
-            120.76
+            121.01
           ],
           "ticker": "XLY",
           "name": "Consumer Discretionary"
         },
         {
-          "price": 90.04,
+          "price": 90.89,
           "prev_close": 90.08,
-          "change_1d_pct": -0.04,
-          "change_1w_pct": -0.87,
-          "change_ytd_pct": 18.13,
+          "change_1d_pct": 0.9,
+          "change_1w_pct": 0.07,
+          "change_ytd_pct": 19.24,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -813,17 +813,17 @@
             91.94,
             91.25,
             90.08,
-            90.04
+            90.89
           ],
           "ticker": "XLP",
           "name": "Consumer Staples"
         },
         {
-          "price": 52.62,
+          "price": 52.94,
           "prev_close": 51.95,
-          "change_1d_pct": 1.29,
-          "change_1w_pct": -1.96,
-          "change_ytd_pct": 15.56,
+          "change_1d_pct": 1.91,
+          "change_1w_pct": -1.36,
+          "change_ytd_pct": 16.26,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -831,17 +831,17 @@
             53.9,
             52.33,
             51.95,
-            52.62
+            52.94
           ],
           "ticker": "XLB",
           "name": "Materials"
         },
         {
-          "price": 44.28,
+          "price": 44.64,
           "prev_close": 44.0,
-          "change_1d_pct": 0.64,
-          "change_1w_pct": 1.47,
-          "change_ytd_pct": 12.3,
+          "change_1d_pct": 1.45,
+          "change_1w_pct": 2.29,
+          "change_ytd_pct": 13.21,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -849,17 +849,17 @@
             45.12,
             44.3,
             44.0,
-            44.28
+            44.64
           ],
           "ticker": "XLRE",
           "name": "Real Estate"
         },
         {
-          "price": 43.19,
+          "price": 43.79,
           "prev_close": 43.13,
-          "change_1d_pct": 0.14,
-          "change_1w_pct": -1.1,
-          "change_ytd_pct": 2.11,
+          "change_1d_pct": 1.53,
+          "change_1w_pct": 0.27,
+          "change_ytd_pct": 3.53,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -867,7 +867,7 @@
             43.61,
             43.3,
             43.13,
-            43.19
+            43.79
           ],
           "ticker": "XLU",
           "name": "Utilities"
@@ -878,11 +878,11 @@
       "label": "Thematic ETFs",
       "rows": [
         {
-          "price": 76.61,
+          "price": 78.98,
           "prev_close": 75.46,
-          "change_1d_pct": 1.53,
-          "change_1w_pct": -2.97,
-          "change_ytd_pct": -2.16,
+          "change_1d_pct": 4.66,
+          "change_1w_pct": 0.03,
+          "change_ytd_pct": 0.86,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -890,17 +890,17 @@
             80.37,
             73.15,
             75.46,
-            76.61
+            78.98
           ],
           "ticker": "ARKK",
           "name": "ARK Innovation"
         },
         {
-          "price": 139.77,
+          "price": 146.76,
           "prev_close": 136.53,
-          "change_1d_pct": 2.37,
-          "change_1w_pct": -7.57,
-          "change_ytd_pct": 33.9,
+          "change_1d_pct": 7.49,
+          "change_1w_pct": -2.95,
+          "change_ytd_pct": 40.6,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -908,17 +908,17 @@
             150.14,
             131.9,
             136.53,
-            139.77
+            146.76
           ],
           "ticker": "SOXX",
           "name": "iShares Semiconductor"
         },
         {
-          "price": 152.07,
+          "price": 156.9,
           "prev_close": 152.21,
-          "change_1d_pct": -0.09,
-          "change_1w_pct": 0.01,
-          "change_ytd_pct": 25.26,
+          "change_1d_pct": 3.08,
+          "change_1w_pct": 3.19,
+          "change_ytd_pct": 29.24,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -926,17 +926,17 @@
             159.1,
             148.4,
             152.21,
-            152.07
+            156.9
           ],
           "ticker": "XBI",
           "name": "SPDR Biotech"
         },
         {
-          "price": 92.58,
+          "price": 94.68,
           "prev_close": 91.04,
-          "change_1d_pct": 1.69,
-          "change_1w_pct": -4.31,
-          "change_ytd_pct": 31.33,
+          "change_1d_pct": 4.0,
+          "change_1w_pct": -2.14,
+          "change_ytd_pct": 34.31,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -944,17 +944,17 @@
             97.36,
             91.01,
             91.04,
-            92.58
+            94.68
           ],
           "ticker": "CIBR",
           "name": "First Trust Cybersecurity"
         },
         {
-          "price": 31.39,
+          "price": 31.88,
           "prev_close": 31.05,
-          "change_1d_pct": 1.1,
-          "change_1w_pct": -2.73,
-          "change_ytd_pct": -14.45,
+          "change_1d_pct": 2.67,
+          "change_1w_pct": -1.21,
+          "change_ytd_pct": -13.11,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -962,17 +962,17 @@
             32.81,
             30.64,
             31.05,
-            31.39
+            31.88
           ],
           "ticker": "BOTZ",
           "name": "Global Robotics & AI"
         },
         {
-          "price": 16.57,
+          "price": 16.61,
           "prev_close": 16.45,
-          "change_1d_pct": 0.73,
-          "change_1w_pct": 5.34,
-          "change_ytd_pct": -2.84,
+          "change_1d_pct": 0.97,
+          "change_1w_pct": 5.59,
+          "change_ytd_pct": -2.6,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -980,17 +980,17 @@
             16.6,
             16.14,
             16.45,
-            16.57
+            16.61
           ],
           "ticker": "ICLN",
           "name": "iShares Clean Energy"
         },
         {
-          "price": 60.43,
+          "price": 61.35,
           "prev_close": 60.91,
-          "change_1d_pct": -0.79,
-          "change_1w_pct": 0.63,
-          "change_ytd_pct": -8.42,
+          "change_1d_pct": 0.72,
+          "change_1w_pct": 2.16,
+          "change_ytd_pct": -7.03,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -998,17 +998,17 @@
             61.88,
             60.18,
             60.91,
-            60.43
+            61.35
           ],
           "ticker": "LIT",
           "name": "Global Lithium & Battery"
         },
         {
-          "price": 71.54,
+          "price": 73.2,
           "prev_close": 70.07,
-          "change_1d_pct": 2.1,
-          "change_1w_pct": -4.37,
-          "change_ytd_pct": 1.17,
+          "change_1d_pct": 4.47,
+          "change_1w_pct": -2.15,
+          "change_ytd_pct": 3.52,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1016,17 +1016,17 @@
             74.72,
             68.82,
             70.07,
-            71.54
+            73.2
           ],
           "ticker": "ROBO",
           "name": "Robo Global Robotics"
         },
         {
-          "price": 112.67,
+          "price": 115.87,
           "prev_close": 110.84,
-          "change_1d_pct": 1.65,
-          "change_1w_pct": -5.1,
-          "change_ytd_pct": 42.1,
+          "change_1d_pct": 4.54,
+          "change_1w_pct": -2.41,
+          "change_ytd_pct": 46.13,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1034,17 +1034,17 @@
             119.63,
             111.4,
             110.84,
-            112.67
+            115.87
           ],
           "ticker": "HACK",
           "name": "ETFMG Cybersecurity"
         },
         {
-          "price": 175.43,
+          "price": 178.17,
           "prev_close": 178.96,
-          "change_1d_pct": -1.98,
-          "change_1w_pct": -12.17,
-          "change_ytd_pct": 17.12,
+          "change_1d_pct": -0.44,
+          "change_1w_pct": -10.8,
+          "change_ytd_pct": 18.95,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1052,7 +1052,7 @@
             182.88,
             179.58,
             178.96,
-            175.43
+            178.17
           ],
           "ticker": "FANG",
           "name": "Direxion FANG+"
@@ -1063,11 +1063,11 @@
       "label": "Country ETFs",
       "rows": [
         {
-          "price": 90.39,
+          "price": 91.48,
           "prev_close": 88.26,
-          "change_1d_pct": 2.41,
-          "change_1w_pct": -2.64,
-          "change_ytd_pct": 11.74,
+          "change_1d_pct": 3.65,
+          "change_1w_pct": -1.46,
+          "change_ytd_pct": 13.09,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1075,17 +1075,17 @@
             93.86,
             88.26,
             88.26,
-            90.39
+            91.48
           ],
           "ticker": "EWJ",
           "name": "Japan (EWJ)"
         },
         {
-          "price": 34.62,
+          "price": 34.66,
           "prev_close": 34.95,
-          "change_1d_pct": -0.94,
-          "change_1w_pct": 4.25,
-          "change_ytd_pct": -12.41,
+          "change_1d_pct": -0.83,
+          "change_1w_pct": 4.37,
+          "change_ytd_pct": -12.3,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1093,17 +1093,17 @@
             34.59,
             34.94,
             34.95,
-            34.62
+            34.66
           ],
           "ticker": "FXI",
           "name": "China Large-Cap (FXI)"
         },
         {
-          "price": 32.25,
+          "price": 32.61,
           "prev_close": 31.98,
-          "change_1d_pct": 0.84,
-          "change_1w_pct": 0.28,
-          "change_ytd_pct": 1.11,
+          "change_1d_pct": 1.97,
+          "change_1w_pct": 1.4,
+          "change_ytd_pct": 2.24,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1111,17 +1111,17 @@
             32.25,
             31.76,
             31.98,
-            32.25
+            32.61
           ],
           "ticker": "EWZ",
           "name": "Brazil (EWZ)"
         },
         {
-          "price": 42.42,
+          "price": 42.99,
           "prev_close": 41.58,
-          "change_1d_pct": 2.02,
-          "change_1w_pct": 0.62,
-          "change_ytd_pct": 1.67,
+          "change_1d_pct": 3.39,
+          "change_1w_pct": 1.97,
+          "change_ytd_pct": 3.04,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1129,17 +1129,17 @@
             43.5,
             42.75,
             41.58,
-            42.42
+            42.99
           ],
           "ticker": "EWG",
           "name": "Germany (EWG)"
         },
         {
-          "price": 47.88,
+          "price": 48.32,
           "prev_close": 47.22,
-          "change_1d_pct": 1.4,
-          "change_1w_pct": -0.31,
-          "change_ytd_pct": 9.23,
+          "change_1d_pct": 2.33,
+          "change_1w_pct": 0.6,
+          "change_ytd_pct": 10.24,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1147,17 +1147,17 @@
             48.93,
             47.89,
             47.22,
-            47.88
+            48.32
           ],
           "ticker": "EWU",
           "name": "United Kingdom (EWU)"
         },
         {
-          "price": 137.46,
+          "price": 142.1,
           "prev_close": 137.01,
-          "change_1d_pct": 0.33,
-          "change_1w_pct": -9.34,
-          "change_ytd_pct": 34.48,
+          "change_1d_pct": 3.72,
+          "change_1w_pct": -6.28,
+          "change_ytd_pct": 39.01,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1165,17 +1165,17 @@
             152.12,
             131.65,
             137.01,
-            137.46
+            142.1
           ],
           "ticker": "EWY",
           "name": "South Korea (EWY)"
         },
         {
-          "price": 29.42,
+          "price": 29.67,
           "prev_close": 29.17,
-          "change_1d_pct": 0.86,
-          "change_1w_pct": -0.03,
-          "change_ytd_pct": 12.71,
+          "change_1d_pct": 1.71,
+          "change_1w_pct": 0.82,
+          "change_ytd_pct": 13.66,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1183,17 +1183,17 @@
             29.86,
             29.25,
             29.17,
-            29.42
+            29.67
           ],
           "ticker": "EWA",
           "name": "Australia (EWA)"
         },
         {
-          "price": 60.6,
+          "price": 60.98,
           "prev_close": 59.94,
-          "change_1d_pct": 1.1,
-          "change_1w_pct": -0.38,
-          "change_ytd_pct": 12.35,
+          "change_1d_pct": 1.74,
+          "change_1w_pct": 0.25,
+          "change_ytd_pct": 13.06,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1201,17 +1201,17 @@
             61.84,
             60.17,
             59.94,
-            60.6
+            60.98
           ],
           "ticker": "EWC",
           "name": "Canada (EWC)"
         },
         {
-          "price": 51.43,
+          "price": 51.41,
           "prev_close": 50.89,
-          "change_1d_pct": 1.06,
-          "change_1w_pct": 6.15,
-          "change_ytd_pct": -5.74,
+          "change_1d_pct": 1.02,
+          "change_1w_pct": 6.11,
+          "change_ytd_pct": -5.77,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1219,17 +1219,17 @@
             50.03,
             50.02,
             50.89,
-            51.43
+            51.41
           ],
           "ticker": "INDA",
           "name": "India (INDA)"
         },
         {
-          "price": 92.83,
+          "price": 95.65,
           "prev_close": 89.24,
-          "change_1d_pct": 4.02,
-          "change_1w_pct": -7.78,
-          "change_ytd_pct": 43.32,
+          "change_1d_pct": 7.18,
+          "change_1w_pct": -4.98,
+          "change_ytd_pct": 47.68,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1237,7 +1237,7 @@
             97.08,
             85.88,
             89.24,
-            92.83
+            95.65
           ],
           "ticker": "EWT",
           "name": "Taiwan (EWT)"
@@ -1248,11 +1248,11 @@
       "label": "My Watchlist",
       "rows": [
         {
-          "price": 174.62,
+          "price": 178.67,
           "prev_close": 186.64,
-          "change_1d_pct": -6.44,
-          "change_1w_pct": -13.58,
-          "change_ytd_pct": -7.32,
+          "change_1d_pct": -4.27,
+          "change_1w_pct": -11.58,
+          "change_ytd_pct": -5.17,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1260,17 +1260,17 @@
             200.13,
             181.6,
             186.64,
-            174.62
+            178.67
           ],
           "ticker": "NVDA",
           "name": "NVIDIA"
         },
         {
-          "price": 348.39,
+          "price": 350.69,
           "prev_close": 342.37,
-          "change_1d_pct": 1.76,
-          "change_1w_pct": 2.98,
-          "change_ytd_pct": 28.9,
+          "change_1d_pct": 2.43,
+          "change_1w_pct": 3.66,
+          "change_ytd_pct": 29.75,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1278,17 +1278,17 @@
             349.51,
             344.17,
             342.37,
-            348.39
+            350.69
           ],
           "ticker": "AAPL",
           "name": "Apple"
         },
         {
-          "price": 544.41,
+          "price": 545.18,
           "prev_close": 530.61,
-          "change_1d_pct": 2.6,
-          "change_1w_pct": 7.35,
-          "change_ytd_pct": 15.84,
+          "change_1d_pct": 2.75,
+          "change_1w_pct": 7.51,
+          "change_ytd_pct": 16.01,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1296,17 +1296,17 @@
             555.8,
             535.93,
             530.61,
-            544.41
+            545.18
           ],
           "ticker": "MSFT",
           "name": "Microsoft"
         },
         {
-          "price": 367.73,
+          "price": 378.05,
           "prev_close": 358.22,
-          "change_1d_pct": 2.65,
-          "change_1w_pct": -8.94,
-          "change_ytd_pct": -16.06,
+          "change_1d_pct": 5.54,
+          "change_1w_pct": -6.38,
+          "change_ytd_pct": -13.7,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1314,17 +1314,17 @@
             385.19,
             343.69,
             358.22,
-            367.73
+            378.05
           ],
           "ticker": "TSLA",
           "name": "Tesla"
         },
         {
-          "price": 637.31,
+          "price": 641.37,
           "prev_close": 610.15,
-          "change_1d_pct": 4.45,
-          "change_1w_pct": 5.04,
-          "change_ytd_pct": -1.76,
+          "change_1d_pct": 5.12,
+          "change_1w_pct": 5.71,
+          "change_ytd_pct": -1.14,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1332,17 +1332,17 @@
             630.0,
             605.08,
             610.15,
-            637.31
+            641.37
           ],
           "ticker": "META",
           "name": "Meta"
         },
         {
-          "price": 273.45,
+          "price": 266.93,
           "prev_close": 259.3,
-          "change_1d_pct": 5.46,
-          "change_1w_pct": 11.33,
-          "change_ytd_pct": 20.73,
+          "change_1d_pct": 2.94,
+          "change_1w_pct": 8.67,
+          "change_ytd_pct": 17.85,
           "pct_from_52w_high": null,
           "high_52w": null,
           "sparkline": [
@@ -1350,7 +1350,7 @@
             266.03,
             260.21,
             259.3,
-            273.45
+            266.93
           ],
           "ticker": "AMZN",
           "name": "Amazon"
@@ -1359,7 +1359,7 @@
     }
   },
   "breadth": {
-    "spx_vs_200ma_pct": 1.8,
-    "rsp_spy_spread_1w": 0.9
+    "spx_vs_200ma_pct": 3.03,
+    "rsp_spy_spread_1w": 0.99
   }
 }
